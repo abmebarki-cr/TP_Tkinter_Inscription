@@ -18,7 +18,7 @@ style.configure("Treeview.Heading", background="#1e3a8a", foreground="white", fo
 header_frame = tk.Frame(window, bg="#1e3a8a", height=100)
 header_frame.pack(fill="x")
 
-uni_logo = tk.PhotoImage(file=r"C:\Users\user\Desktop\TP info\uni_logo.png").subsample(5, 5)
+uni_logo = tk.PhotoImage(file=r"C:\Users\user\Desktop\TP info\TK\uni_logo.png").subsample(5, 5)
 uni_logo_canvas = tk.Canvas(header_frame, width=80, height=80, bg="white", highlightthickness=0)
 uni_logo_canvas.place(x=25, y=10)
 uni_logo_canvas.create_image(40, 40, image=uni_logo)
@@ -26,7 +26,7 @@ uni_logo_canvas.create_image(40, 40, image=uni_logo)
 header = tk.Label(header_frame, text="Ministère de l'Enseignement Supérieur et de la Recherche Scientifique\nUniversité M'hamed BOUGARA BOUMERDES\nFaculté de Technologie", bg="#1e3a8a", fg="white", font=("Segoe UI", 11, "bold"), justify="center")
 header.place(relx=0.5, y=50, anchor="center")
 
-fac_logo = tk.PhotoImage(file=r"C:\Users\user\Desktop\TP info\logo_fac.png").subsample(5, 5)
+fac_logo = tk.PhotoImage(file=r"C:\Users\user\Desktop\TP info\TK\logo_fac.png").subsample(5, 5)
 fac_logo_canvas = tk.Canvas(header_frame, width=80, height=80, bg="white", highlightthickness=0)
 fac_logo_canvas.place(x=1015, y=10)
 fac_logo_canvas.create_image(40, 40, image=fac_logo)
