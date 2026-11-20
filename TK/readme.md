@@ -19,4 +19,4 @@ A modern, native Python desktop application for managing student registrations, 
 3. If your file paths in the code are absolute (e.g., `C:\...`), update them to relative paths (e.g., `file="uni_logo.png"`) for portability across different computers.
 4. Run the script:
    ```bash
-   python main.py
+   python tkin2.py
